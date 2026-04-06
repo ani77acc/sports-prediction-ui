@@ -72,9 +72,14 @@ This project demonstrates:
 ---
 
 ## 📸 Demo
+### 🔮 Prediction Output
+![Prediction](assets/prediction.png)
 
-(Add screenshots here later)
+### 🔍 Explainability
+![Explainability](assets/explainability.png)
 
+### ⚙️ Model Breakdown
+![Model](assets/model.png)
 ---
 
 ## 🚧 Future Improvements
@@ -88,4 +93,6 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 
-Built by [Your Name]
+Built by [Pinakeshwar Dighe]
+
+
