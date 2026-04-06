@@ -1,16 +1,91 @@
-# React + Vite
+# ⚽ MatchIQ — Football Match Prediction UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, explainable AI-powered football match prediction interface built using React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Overview
 
-## React Compiler
+MatchIQ is a frontend demo of a sports analytics system that predicts football match outcomes using multiple models and explainability factors.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project focuses on:
 
-## Expanding the ESLint configuration
+* Model-driven prediction
+* Explainability (why a team wins)
+* Clean, modern UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Features
+
+### 📊 Prediction Output
+
+* Match: Manchester City vs Liverpool
+* Win probabilities:
+
+  * Manchester City: 55%
+  * Draw: 20%
+  * Liverpool: 25%
+* Final prediction with confidence level
+
+---
+
+### 🔍 Explainability Layer
+
+Breakdown of contributing factors:
+
+* Form
+* Head-to-head
+* Home advantage
+* Injuries / Squad strength
+* Possession / Attacking stats
+* Recent goals scored
+
+---
+
+### ⚙️ Model Breakdown
+
+* Team Strength Model (ELO)
+* Goal Probability Model (xG-inspired)
+* Form & Momentum Model
+* Squad Strength Model
+* Ensemble Model (final decision)
+
+---
+
+## 🛠 Tech Stack
+
+* React (Vite)
+* JavaScript
+* CSS (inline styling)
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates:
+
+* Frontend system design
+* Data-driven UI thinking
+* Explainable AI concepts (XAI)
+
+---
+
+## 📸 Demo
+
+(Add screenshots here later)
+
+---
+
+## 🚧 Future Improvements
+
+* Add real data integration
+* Backend model APIs
+* Live match updates
+* Advanced visualizations
+
+---
+
+## 👨‍💻 Author
+
+Built by [Your Name]
